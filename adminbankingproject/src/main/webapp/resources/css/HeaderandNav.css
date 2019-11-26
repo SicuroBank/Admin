@@ -1,0 +1,120 @@
+/* .top-container {
+  background-color: #ffffff00;
+  padding: 30px;
+  text-align: center;
+} */
+
+.header {
+  padding: 10px 16px;
+  background: rgb(255, 255, 255);
+  color: #f1f1f1;
+ 
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+
+.top-container {
+    padding: 10px;
+    text-align: center;
+    top:1;
+    background: rgb(255, 255, 255);
+
+  }
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(76, 139, 175);
+  }
+  
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ccc;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #ccc;
+    color: rgb(0, 0, 0);
+  }
+  
+  
+
+.sidenav {
+  height: 100%;
+  width: 220px;
+  position: fixed;
+  z-index: 5;
+  left:0;
+  background-color:  rgba(204, 204, 204, 0.657);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #000000;
+}
+
+.main {
+  margin-left: 60px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 5px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.vertical-menu {
+    width: 200px;
+  }
+  
+  .vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+  
+  .sidenav a.active {
+    background-color: #ccc;
+    color: black;
+  }
+  
+  
+  

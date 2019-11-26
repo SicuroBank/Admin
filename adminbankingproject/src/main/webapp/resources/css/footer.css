@@ -1,0 +1,11 @@
+ .fixed-footer{
+    bottom: 0;
+    margin-top:50px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(76, 139, 175);
+    text-align: center;
+    left: 8px;
+    width: 100%;
+    position: fixed;        
+    padding: 5px 0;
+}
